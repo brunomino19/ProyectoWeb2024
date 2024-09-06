@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.navbar, .footer-color {
+    background-color: #ffd1dc;
+}
+
+.bg-image {
+    background: linear-gradient(to right, 
+        #ffafbd, /* Rosa pastel */
+        #ffc3a0, /* Melocotón pastel */
+        #d5aaff, /* Lila pastel */
+        #c2e9fb  /* Azul pastel */
+    );
+    height: 100vh; /* Asegúrate de que el fondo cubra toda la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.custom-card {
+    flex: 1; /* Permite que las tarjetas se expandan para ocupar el espacio disponible */
+    min-width: 200px; /* Ancho mínimo */
+    max-width: 300px; /* Ancho máximo */
+    height: 400px; /* Ajusta la altura */
+    margin: 10px; /* Espacio entre tarjetas */
+}
+
+.custom-card .card-img-top {
+    height: 150px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin deformarla */
+}
+
+.pastel-card {
+    background-color: #f8d3c8; /* Cambia a un color pastel de tu elección */
+    border: 1px solid #e4a4a0; /* Opcional: un borde del color pastel más oscuro */
+}
+.pastel-card img {
+    border-bottom: 1px solid #e4a4a0; /* Opcional: un borde en la parte inferior de la imagen */
+}
+
+.card {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Opcional: elimina el borde de la tarjeta */
+    border-radius: 10px; /* Opcional: ajusta el radio del borde */
+}
+
+.card-body {
+    padding: 20px; /* Espaciado interno en la tarjeta */
+    text-align: center;
+}
+
+.service-icon svg {
+    width: 50px;
+    height: 50px;
+    fill: #007bff; /* Color de relleno para los íconos */
+}
+
+.service-title {
+    font-size: 1.25rem; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.service-text {
+    font-size: 1rem; /* Tamaño de fuente para el texto */
+    color: #6c757d; /* Color del texto */
+}
+
